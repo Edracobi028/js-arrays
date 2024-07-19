@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div id="app"></div><!-- donde vamos a renderizar -->
+
+    <script>
+        const products = [
+            { title: 'Burger', price: 121},
+            {title: 'Pizza', price: 20},
+        ]
+        const app = document.getElementById('app'); /* seleccionar el div donde queremos iterar*/
+        //Renderizado usando map
+        const list = products.map( product => {
+             return `<li>${product.title} - ${product.price}</li>` /* agregando al HTML*/
+        })
+
+        app.innerHTML = list.join(''); // Cargar el HTML transformando el array a string con join()
+    </script>
+</body>
+</html>
