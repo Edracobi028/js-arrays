@@ -61,4 +61,11 @@ const search = (query) => {
 
 console.log(search('Nico'));
 
+/* == Ejercicio Playground clase 8 */
+// const array = ['amor', 'amor', 'piedra', 'piedra'];
+// filterByLength(array);
+// export function filterByLength(array) {
+//   return array.filter(item => item.length >= 4);
+// }
+
 
