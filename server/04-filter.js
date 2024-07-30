@@ -1,6 +1,6 @@
 const words = ['spray', 'limit', 'elite', 'exuberant'];
 
-//== camino largo ==
+/* == camino largo == */
 const newArray = []; //creamos un array vacio
 for (let i = 0; i < words.length; i++) {
     const item = words[i];
@@ -12,7 +12,7 @@ console.log('newArray', newArray);
 console.log('original', words);
 
 
-//== camino corto ==
+/* == camino corto == */
 //Usamos la funcion filter y agregamos la condición despues de AF y guardar en un nuevo arreglo
 const betterArray = words.filter( item => item.length >= 6);
 console.log('betterArray', betterArray);
