@@ -7,6 +7,8 @@ for (let i = 0; i < totals.length; i++) {
     sum = sum + element; //ir sumando los valores que vamos iterando
 }
 console.log(sum);
+
+
 //1. Acumulador = (sum)
 //2. Item que vamos a iterar =  (element)
 //3. 1er argumento (arrow function) = (sum, element) => sum + element
