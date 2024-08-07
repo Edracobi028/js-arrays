@@ -62,3 +62,13 @@ data
 
 console.log('levelTypes',levelTypes);
 
+
+/* == Ejercicio Playground clase 12 */
+
+// const input1 = [1, 2, 3];
+// calcSum(input1);
+// const input2 = [2, 4, 8];
+// calcSum(input2);
+// export function calcSum(numbers) {
+//    return numbers.reduce((sum, element) => sum + element, 0);
+// }
