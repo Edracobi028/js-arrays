@@ -90,4 +90,17 @@ const isOverLap = (newDate) => {
 
 console.log( 'isOverlap',isOverLap(newAppointment)  );
 
+/* == Playground clase 14 == */
+
+// const input1 = [1, 3, 5, 7, 10, 11];
+// checkArray(input1);
+// const input2 = [1, 3, 5];
+// checkArray(input2);
+// const input3 = [];
+// checkArray(input3);
+
+// export function checkArray(numbers) {
+//     return numbers.some(item => item % 2 === 0);
+// }
+
 
