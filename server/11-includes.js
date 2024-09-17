@@ -19,3 +19,17 @@ console.log('log', includeArray);
 const rta = pets.includes('dog') //no funciona con arrow function, solo se le pasa el elemento
 console.log('includes', rta);
 
+/* == Playground clase 19 == */
+/* 
+const names1 = ["ana", "santi", "nico", "anastasia"];
+let search1 = 'ana';
+filterByTerm(names1,search1);
+
+const names2 = ["ana", "santi", "nico", "anastasia"];
+let search2 = 'ana';
+filterByTerm(names2,search2);
+
+export function filterByTerm(array, term) {
+    return array.filter(item => item.includes(term))
+  }  
+*/
