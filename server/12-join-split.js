@@ -20,3 +20,12 @@ const title = 'Curso de manipulación de arrays';
 const url = title.split(' ').join('-').toLocaleLowerCase();
 console.log(url);
 
+/* == Playground clase 19 == */
+
+/* 
+let exampleTitle = "La forma de correr Python";
+parseToURL(exampleTitle);
+function parseToURL(title) {
+    return   title = title.split(' ').join('-').toLocaleLowerCase(); 
+} 
+*/
