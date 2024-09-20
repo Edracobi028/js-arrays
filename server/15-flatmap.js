@@ -40,3 +40,16 @@ const attributes3 = Object.values(calendars).flatMap(item => {
     return item.map(date => date.startDate); //volvemos a mapear para obtener un array con los valores
 }); //object.values trae los atributos de un objeto, obtener en un array los 4 objetos
 console.log(attributes3);
+
+/* == Playground clase 25 == */
+
+const phrases = [
+    "Beautiful is better than ugly",
+    "Explicit is better than implicit",
+    "Simple is better than complex",
+    "Complex is better than complicated",
+];
+countWords(phrases);
+export function countWords(array) {
+    return array.flatMap(item => item.split(' ')).length; //ordenamos en un solo array y por cada uno separe por espacio y al fnal contabilizamos
+}
